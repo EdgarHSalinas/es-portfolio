@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/EdgarHSalinas/edgar_view_tool
-  revision: bf1c175b47e414e73ea4616feef022a30393de89
-  specs:
-    edgar_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,6 +64,7 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    edgar_view_tool (0.1.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.25)
@@ -191,7 +186,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.3)
-  edgar_view_tool!
+  edgar_view_tool (~> 0.1.0)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
