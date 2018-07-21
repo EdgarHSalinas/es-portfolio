@@ -40,7 +40,7 @@ class BlogsController < ApplicationController
       end
     end
   end
-ss/1
+  
   # PATCH/PUT /blogs/1.json
   def update
     respond_to do |format|
