@@ -7,7 +7,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    @blogs = Blog.all
+    @blogs = Blog.page(params[:page]).per(5)
     @page_title = "Edgar's Blog"
   end
 
@@ -40,7 +40,7 @@ class BlogsController < ApplicationController
       end
     end
   end
-ss/1
+  
   # PATCH/PUT /blogs/1.json
   def update
     respond_to do |format|

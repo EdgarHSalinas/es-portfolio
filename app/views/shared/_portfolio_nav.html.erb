@@ -1,0 +1,13 @@
+<div class="navbar navbar-dark bg-dark" id="navbarHeader">
+    <nav class="navbar">
+    <div class="d-block mx-auto">
+      <%= link_to "Home", root_path, class: 'py-2 navbar-brand' %>
+      <%= link_to "About", about_me_path, class: 'navbar-brand' %>
+      <%= link_to "Contact", contact_path, class: 'navbar-brand' %>
+      <%= link_to "Blog", blogs_path, class: 'navbar-brand' %>
+      <%= link_to "Portfolio", portfolios_path, class: 'navbar-brand' %>
+      <%= login_helper 'navbar-brand' %>
+    </div>
+    </nav>
+
+</div>

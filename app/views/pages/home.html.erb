@@ -1,9 +1,9 @@
-<h1>Hi, <%= current_user.first_name %></h1>
+<div class="inner cover">
+  <h1 class="cover-heading">Welcome!</h1>
+  <p class="lead">Full-stack software engineer with a strong web, mobile, and backend experience. History of solving real-world problems. Using battle tested software (JavaScript, Ruby on Rails) and cloud deployment (AWS, Docker).</p>
+  <p class="lead">
+    <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
+  </p>
+</div>
 
-<p>Find me in app/views/pages/home.html.erb</p>
 
-<h1>Blog Posts</h1>
-<%= @posts.inspect %>
-
-<h1>Skills</h1>
-<%= @skills.inspect %>

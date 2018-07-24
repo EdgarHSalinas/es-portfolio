@@ -9,14 +9,18 @@
 - Portfolio
 - Drag and drop interface
 
-### Code Example
+### Code
 
-```ruby
-def my_great_method
-  puts "here it is"
-end
+
+* Ruby 2.4.0
+
+* rails 5.0.1
+
+```Bash
+$ git clone
+$ cd <name>
+$ bundle install
+$ rails db:create && rails db:migrate
+$ rails server
 ```
 
-```javascript
-alert('Hi there');
-```
