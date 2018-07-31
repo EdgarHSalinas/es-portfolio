@@ -1,6 +1,11 @@
 @import "bootstrap";
 @import "gritter";
 
+
+@font-face {
+  font-family: 'Iconsolata';
+  src:font-url('Iconsolata-Regular.ttf');
+}
 /*
  * Globals
  */
@@ -36,6 +41,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -222,7 +228,33 @@ body {
   color: blue;
 }
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
