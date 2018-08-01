@@ -1,5 +1,9 @@
 # Portfolio Application
 
+## [EdgarSalinas.com](https://ehs-portfolio.herokuapp.com/)
+
+
+![Alt text](app/assets/images/home_portfolio.png?raw=true "Portfolio")
 > This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 
 ### Features
