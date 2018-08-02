@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import "gritter";
 
 
@@ -254,6 +255,13 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.social-links a {
+  font-size: 2.5em;
+  color: black;
+  
+}
+
 
 
 
